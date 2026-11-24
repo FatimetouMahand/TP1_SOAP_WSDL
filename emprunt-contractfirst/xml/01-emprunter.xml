@@ -1,0 +1,12 @@
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:bib="http://supnum.mr/bib">
+
+    <soapenv:Header/>
+    <soapenv:Body>
+        <bib:emprunterLivre>
+            <bib:idAdherent>AD001</bib:idAdherent>
+            <bib:isbn>978-2-10-074444-4</bib:isbn>
+        </bib:emprunterLivre>
+    </soapenv:Body>
+</soapenv:Envelope>
